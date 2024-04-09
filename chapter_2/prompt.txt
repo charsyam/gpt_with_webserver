@@ -1,0 +1,2 @@
+I don't want to use SimpleHTTPRequestHandler. I also want to build its code from scratch.
+

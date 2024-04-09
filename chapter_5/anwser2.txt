@@ -1,0 +1,3 @@
+The error you mentioned, "Header without colon," likely occurs when the parse_http_headers function encounters a line in the HTTP request that it expects to be a header (following the format Header-Name: Header-Value), but the line doesn't contain a colon. This can happen if the request is malformed or if the function mistakenly processes parts of the request that aren't headers.
+
+Given the focus has shifted more towards serving files and correctly handling HTTP requests, let's refine the script to better manage these scenarios, particularly focusing on the initial request line and ensuring we only attempt to parse actual headers.

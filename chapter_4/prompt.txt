@@ -1,0 +1,2 @@
+It can't handle if request is bigger than 1024 bytes. could you show the code to handle any size of request?
+
